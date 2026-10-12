@@ -1,0 +1,152 @@
+/**
+ * Synchronous profile data export for client-side rendering
+ */
+window.PROFILE_DATA = {
+  name: "Baby Kavya G",
+  initials: "GK",
+  title: "AI / Machine Learning Enthusiast",
+  subtitle: "B.Tech CSE (AI & ML) Student at VNR Vignana Jyothi Institute of Engineering & Technology",
+  location: "Hyderabad, India",
+  phone: "+91 9063238677",
+  email: "gkavi1325@gmail.com",
+  links: {
+    github: "https://github.com/kav08-hub",
+    linkedin: "https://www.linkedin.com/in/baby-kavya-gurram",
+    resume: "/resume.pdf"
+  },
+  stats: {
+    academicYear: "2nd Year",
+    intermediateScore: "98.9%",
+    tenthScore: "89.8%",
+    certificationsCount: "7+"
+  },
+  about: {
+    summary: "Second-year B.Tech student in Computer Science (Artificial Intelligence & Machine Learning) at VNR Vignana Jyothi Institute of Engineering & Technology, Hyderabad. Highly driven AI/ML enthusiast with hands-on experience developing LLM chatbots, software network systems, and participating in competitive hackathons and startup expos.",
+    highlights: [
+      "Pursuing B.Tech in CSE (AI & ML) at VNR Vignana Jyothi Institute of Engineering & Technology (2025 - Present).",
+      "Scored 98.9% in Intermediate (12th Grade) at Sri Aadya Junior College and 89.8% in 10th Grade at Surya the Global School.",
+      "Presented innovative healthcare AI idea at Startup Expo – VNRVJIET: 'Early detection of chronic diseases without relying on high-cost hospital visits'.",
+      "Completed Generative AI Workshop at IIT Hyderabad and AI with Python certification with Coincent.ai & E-Cell IIT Madras.",
+      "Active participant in Agentic AI, Vibe Coding Hackathon, Synthetic Data Creation Hackathon, and ML Challenge."
+    ]
+  },
+  skills: [
+    {
+      category: "Programming",
+      items: ["Python", "C", "Data Structures (basic)"]
+    },
+    {
+      category: "Tools & Platforms",
+      items: ["GitHub", "Google Colab", "VS Code"]
+    },
+    {
+      category: "Soft Skills",
+      items: ["Problem-solving", "Team collaboration", "Communication"]
+    },
+    {
+      category: "Languages",
+      items: ["Telugu", "English"]
+    }
+  ],
+  skillsList: [
+    "Python",
+    "C",
+    "Data Structures (basic)",
+    "GitHub",
+    "Google Colab",
+    "VS Code",
+    "Problem-solving",
+    "Team collaboration",
+    "Communication",
+    "Telugu",
+    "English"
+  ],
+  projects: [
+    {
+      title: "AI Chatbot using LLM",
+      description: "An intelligent conversational chatbot application leveraging Large Language Models (LLMs) to deliver contextual responses, automate dialogue workflows, and provide an interactive AI-powered conversational experience.",
+      technologies: ["Python", "LLMs", "Generative AI", "Prompt Engineering", "GitHub"],
+      githubUrl: "https://github.com/kav08-hub/ai-chatbot-llm",
+      liveUrl: "https://github.com/kav08-hub/ai-chatbot-llm",
+      tag: "AI & LLM"
+    },
+    {
+      title: "Hospital Network System",
+      description: "A structured hospital management software system designed to coordinate healthcare departmental workflows, patient records, and hospital network resources efficiently.",
+      technologies: ["C / Python", "Data Structures", "GitHub", "VS Code"],
+      githubUrl: "https://github.com/kav08-hub/Hospital-Network",
+      liveUrl: "https://github.com/kav08-hub/Hospital-Network",
+      tag: "Systems & Healthcare"
+    }
+  ],
+  education: [
+    {
+      degree: "B. Tech — Computer Science (AI & ML)",
+      institution: "VNR Vignana Jyothi Institute of Engineering & Technology",
+      period: "2025 - Present",
+      status: "Second-year B.Tech Student",
+      location: "Hyderabad, India",
+      description: "Core specialization in Artificial Intelligence, Machine Learning algorithms, Data Structures, and Agentic Application Deployment."
+    },
+    {
+      degree: "Intermediate (12th Grade)",
+      institution: "Sri Aadya Junior College",
+      period": "2023 - 2025",
+      status: "Score: 98.9%",
+      location: "Hyderabad, India",
+      description: "Achieved academic excellence with 98.9% score focusing on Mathematics and Physical Sciences."
+    },
+    {
+      degree: "10th Grade (Secondary School)",
+      institution: "Surya the Global School",
+      period": "2023",
+      status: "Score: 89.8%",
+      location: "Hyderabad, India",
+      description: "Graduated with 89.8% academic distinction."
+    }
+  ],
+  certifications: [
+    {
+      title: "Generative AI Workshop",
+      issuer: "IIT Hyderabad",
+      type: "Workshop"
+    },
+    {
+      title: "Artificial Intelligence with Python",
+      issuer: "Coincent.ai & E-Cell IIT Madras",
+      type: "Certification"
+    },
+    {
+      title: "Agentic AI: Deployment of Applications",
+      issuer: "VNRVJIET",
+      type: "Certification"
+    },
+    {
+      title: "Startup Expo – Presented Idea",
+      issuer: "VNRVJIET",
+      description: "Early detection of chronic diseases without relying on high-cost hospital visits",
+      type: "Presentation / Expo"
+    },
+    {
+      title: "Vibe Coding Hackathon",
+      issuer: "VNRVJIET",
+      type: "Hackathon"
+    },
+    {
+      title: "Synthetic Data Creation Hackathon",
+      issuer: "VNRVJIET",
+      type: "Hackathon"
+    },
+    {
+      title: "ML Challenge",
+      issuer: "VNRVJIET",
+      type: "Competition"
+    }
+  ],
+  resume: {
+    headline: "Baby Kavya G - AI / Machine Learning Enthusiast",
+    pdfPath: "/resume.pdf",
+    education: "B. Tech — Computer Science (AI & ML), VNR Vignana Jyothi Institute of Engineering & Technology (2025 - Present)",
+    summary: "Second-year B.Tech student in Computer Science (AI & ML) with strong foundation in Python, C, Data Structures, Generative AI, and competitive hackathons."
+  }
+};
